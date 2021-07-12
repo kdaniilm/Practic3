@@ -11,7 +11,7 @@ namespace Practic3Back.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    //[EnableCors("CorsPolicy")]
+    [EnableCors("CorsPolicy")]
     public class WeatherForecastProdController : ControllerBase
     {
         private readonly ILogger<WeatherForecastProdController> _logger;

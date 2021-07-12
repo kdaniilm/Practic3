@@ -7,3 +7,4 @@
 *.ts binary
 *.html binary
 *.spec.ts binary
+*.css binary

@@ -2,3 +2,4 @@
 *.config binary
 *.browserslistrc binary
 *.editorconfig binary
+*.json binary

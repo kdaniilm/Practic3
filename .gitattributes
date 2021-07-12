@@ -4,3 +4,6 @@
 *.editorconfig binary
 *.json binary
 *.js binary
+*.ts binary
+*.html binary
+*.spec.ts binary

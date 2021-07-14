@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
 
-  baseUrl: "http://localhost:10804/weatherforecast/"
+  baseUrl: "https://localhost:44315/weatherforecast"
 };
 
 /*

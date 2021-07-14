@@ -21,9 +21,10 @@ namespace Practic3Back.Controllers
             _logger = logger;
         }
         [HttpGet]
-        public string Get()
+        public JsonResult Get()
         {
-            return "Welcome to development!!!";
+            var responseString = "Welcome to development!!!";
+            return new JsonResult(responseString);
         }
     }
 }

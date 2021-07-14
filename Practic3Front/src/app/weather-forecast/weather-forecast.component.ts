@@ -11,16 +11,13 @@ import { HttpHeaders } from '@angular/common/http';
 
 export class WeatherForecastComponent implements OnInit {
 
+  
   public x: any;
 
   constructor(private http: HttpClient) {
-    
-    // httpOptions.headers.append('Access-Control-Allow-Origin', 'http://localhost:10804');
-    // httpOptions.headers.append('Access-Control-Allow-Methods', 'GET');
-    // httpOptions.headers.append('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-    // httpOptions.headers.append('Access-Control-Allow-Credentials', 'true');
 
-    this.http.get<string>(environment.baseUrl).subscribe(res => {
+    this.http.get<string>(environment.baseUrl).subscribe((res) => {
+      
       this.x = res;
     },
     error => {
